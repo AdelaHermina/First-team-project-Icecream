@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Titan+One&display=swap');
 
 .product {
-  background-color: rgba(255, 245, 246, 1);
   &-header {
     margin-top: 0px;
     text-align: center;
@@ -198,7 +197,7 @@
   transition: 0.5s ease-out;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   /* Tablet */
   .product {
     &-header {

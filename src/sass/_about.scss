@@ -1,13 +1,16 @@
 /* About */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Titan+One&display=swap');
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background: #fff5f6;
 }
-
+.section__section--about-section {
+  background: rgba(255, 245, 246, 1);
+}
+.section__section--advantages-section {
+  background: rgba(255, 245, 246, 1);
+}
 .section__about {
   display: block;
 
@@ -17,7 +20,6 @@
     padding-top: 60px;
     padding-bottom: 32px;
   }
-
   &-center {
     display: flex;
     flex-direction: column;
@@ -35,7 +37,6 @@
     color: #ffa5ba;
     margin-top: 0;
   }
-
   &-title {
     font-family: 'Titan One';
     font-style: normal;
@@ -57,24 +58,20 @@
     height: 279px;
     top: 111px;
   }
-
   &__image-efect {
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
     transition-delay: 500ms;
   }
-
   &__image-efect:hover {
     transform: rotate(180deg);
   }
-
   &__text {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 80px;
   }
-
   &__text-top {
     font-family: 'DM Sans';
     font-style: normal;
@@ -86,7 +83,6 @@
     padding-top: 40px;
     padding-right: 0;
   }
-
   &__text-bottom {
     font-family: 'DM Sans';
     font-style: normal;
@@ -97,7 +93,6 @@
     color: #907e82;
     padding-top: 18px;
   }
-
   &__text-hidden {
     font-family: 'DM Sans';
     font-style: normal;
@@ -126,7 +121,6 @@
   text-align: center;
   position: relative;
   top: 20px;
-
   &__icon {
     position: absolute;
     padding-left: 13px;
@@ -134,9 +128,10 @@
     height: 24px;
   }
 }
-
+#more {
+  display: none;
+}
 /* Advantages */
-
 /* HIDDEN */
 .visually-hidden {
   border: 0;
@@ -150,25 +145,20 @@
   white-space: nowrap;
   width: 1px;
 }
-
 .section__advantages-section {
   display: flex;
 }
-
 .section__advantages {
   &-text {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    padding-top: 40px;
   }
-
   &-milk {
-    background: url(../images/milk-background.png);
     display: block;
-    margin-top: 45px;
     margin-left: 20px;
+    margin-top: 32px;
   }
-
   &-apples {
     display: block;
     margin-left: 20px;
@@ -178,7 +168,6 @@
     margin-left: 20px;
     margin-top: 32px;
   }
-
   &-numbers {
     font-family: 'Titan One';
     font-style: normal;
@@ -194,22 +183,19 @@
 }
 .section__advantages-milk .icon::before {
   content: url(../images/milk.png);
-  display: none;
+  display: block;
   padding-bottom: 20px;
 }
-
 .section__advantages-apples .icon::before {
   content: url(../images/apples.png);
   display: block;
   padding-bottom: 20px;
 }
-
 .section__advantages-heart .icon::before {
   content: url(../images/heart.png);
   display: block;
   padding-bottom: 20px;
 }
-
 .section__advantages-text {
   &-milk {
     max-width: 288px;
@@ -222,7 +208,6 @@
     color: #000000;
     padding-top: 16px;
   }
-
   &-apples {
     max-width: 288px;
     font-family: 'DM Sans';
@@ -234,7 +219,6 @@
     color: #000000;
     padding-top: 16px;
   }
-
   &-heart {
     max-width: 288px;
     font-family: 'DM Sans';
@@ -253,17 +237,14 @@
     &-titles {
       padding-bottom: 40px;
     }
-
     &-label {
       font-size: 26px;
       line-height: 30px;
     }
-
     &-center {
       display: flex;
       flex-direction: row;
     }
-
     &-title {
       font-size: 48px;
       line-height: 55px;
@@ -271,17 +252,12 @@
       margin-top: 16px;
       margin-bottom: 40px;
     }
-
-    &-background {
-      border: none;
-    }
   }
   .about-center__image {
     width: 336px;
     height: 335px;
     left: 32px;
   }
-
   .about-center__image-efect {
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
@@ -290,12 +266,10 @@
   .about-center__image-efect:hover {
     transform: rotate(180deg);
   }
-
   .about-center__text {
     display: flex;
     padding-left: 32px;
     padding-right: 34px;
-
     &-top {
       max-width: 334px;
       font-size: 14px;
@@ -305,7 +279,6 @@
       padding-top: 40px;
       padding-right: 0;
     }
-
     &-bottom {
       max-width: 334px;
       font-size: 14px;
@@ -329,29 +302,24 @@
     position: relative;
     top: 40px;
   }
-
   /* Advantages */
-
   .section__advantages {
     &-text {
       display: flex;
       flex-direction: row;
     }
-
     &-milk {
       margin-left: 16px;
-      padding-top: 45px;
+      padding-top: 40px;
     }
-
     &-apples {
       margin-left: 16px;
-      padding-top: 52px;
+      padding-top: 40px;
     }
     &-heart {
       margin-left: 16px;
-      padding-top: 52px;
+      padding-top: 40px;
     }
-
     &-numbers {
       font-size: 48px;
       line-height: 55px;
@@ -364,7 +332,6 @@
       padding-bottom: 36px;
     }
   }
-
   .section__advantages-text {
     &-milk {
       max-width: 165px;
@@ -372,14 +339,12 @@
       line-height: 174%;
       padding-top: 32px;
     }
-
     &-apples {
       max-width: 165px;
       font-size: 14px;
       line-height: 174%;
       padding-top: 32px;
     }
-
     &-heart {
       max-width: 165px;
       font-size: 14px;
@@ -390,6 +355,10 @@
 }
 /* Stiluri pentru desktop */
 @media screen and (min-width: 1200px) {
+  .section__section--about-section {
+    margin-top: 617px;
+  }
+
   .section__about {
     &-titles {
       padding-bottom: 60px;
@@ -400,13 +369,11 @@
       height: 521px;
       border: none;
     }
-
     &-label {
       font-size: 30px;
       line-height: 34px;
       letter-spacing: 0.04em;
     }
-
     &-title {
       font-size: 58px;
       line-height: 66px;
@@ -420,7 +387,6 @@
       height: 501px;
       left: 16px;
     }
-
     &__text {
       padding-left: 99px;
     }
@@ -430,7 +396,6 @@
       line-height: 176%;
       padding-top: 60px;
     }
-
     &__text-bottom {
       max-width: 401px;
       font-size: 14px;
@@ -449,12 +414,10 @@
     line-height: 21px;
     top: 0px;
   }
-
   .section__advantages {
     &-milk {
       padding-bottom: 182px;
     }
-
     &-apples {
       margin-left: 115px;
       margin-top: 40px;
@@ -463,40 +426,33 @@
       margin-left: 80px;
       margin-top: 40px;
     }
-
     &-numbers {
       font-size: 58px;
       line-height: 66px;
       text-align: left;
       padding-bottom: 16px;
     }
-
     .section__advantages-milk .icon::before {
       padding: 40px 0px 40px 0px;
     }
-
     .section__advantages-apples .icon::before {
       padding: 40px 0px 40px 0px;
     }
-
     .section__advantages-heart .icon::before {
       padding: 40px 0px 40px 0px;
     }
-
     .section__advantages-text-milk {
       max-width: 288px;
       height: 79px;
       font-size: 16px;
       line-height: 176%;
     }
-
     .section__advantages-text-apples {
       max-width: 317px;
       height: 58px;
       font-size: 16px;
       line-height: 176%;
     }
-
     .section__advantages-text-heart {
       max-width: 288px;
       height: 82px;
@@ -504,49 +460,41 @@
       line-height: 176%;
     }
   }
-
   .section__advantages {
     &-milk {
       padding-bottom: 182px;
     }
-
     &-apples {
       margin-left: 115px;
       margin-top: 40px;
     }
-
     &-heart {
       margin-left: 80px;
       margin-top: 40px;
     }
-
     &-numbers {
       font-size: 58px;
       line-height: 66px;
       text-align: left;
       padding-bottom: 16px;
     }
-
     &-milk .icon::before,
     &-apples .icon::before,
     &-heart .icon::before {
       padding: 40px 0px 40px 0px;
     }
-
     &-text-milk {
       max-width: 288px;
       height: 79px;
       font-size: 16px;
       line-height: 176%;
     }
-
     &-text-apples {
       max-width: 317px;
       height: 58px;
       font-size: 16px;
       line-height: 176%;
     }
-
     &-text-heart {
       max-width: 288px;
       height: 82px;
