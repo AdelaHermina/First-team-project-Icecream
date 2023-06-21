@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 60px;
   display: flex;
+  padding-top: 0;
 
   &__image {
     justify-content: center;
@@ -117,12 +118,17 @@
 @media screen and (min-width: 768px) {
   .testimonials {
     padding: 0;
+    padding-top: 50px;
   }
   .mySlides {
     padding: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
+  .testimonials {
+    padding-top: 100px;
+  }
+
   .testimonials__image img {
     img {
       width: 85px;
