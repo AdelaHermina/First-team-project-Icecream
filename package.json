@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdelaHermina/First-team-project-Icecream.git"
+    "url": "git+https://github.com/adelahermina/First-team-project-Icecream.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AdelaHermina/First-team-project-Icecream/issues"
+    "url": "https://github.com/adelahermina/First-team-project-Icecream/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
