@@ -249,6 +249,10 @@
     cursor: pointer;
   }
 }
+
+.menu-toggle {
+  display: block;
+}
 .mobile-close {
   background-color: transparent;
   border: none;
@@ -521,16 +525,21 @@
   .modal-form__contacts {
     padding-left: 50px;
   }
+  .menu-toggle {
+    display: block;
+  }
 }
 
 // Desktop Styles
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1280px;
     height: 664px;
   }
   .menu {
+    z-index: 99;
     display: inline-block;
+    margin-top: 23px;
   }
   .menu-toggle {
     display: none;
