@@ -1,21 +1,21 @@
 {
-  "name": "First-team-project-Icecream",
+  "name": "first-team-project-icecream",
   "version": "2.0.0",
   "description": "",
-  "homepage": " https://adelahermina.github.io/First-team-project-Icecream",
+  "homepage": " https://adelahermina.github.io/first-team-project-icecream/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /First-team-project-Icecream/"
+    "build": "parcel build src/*.html --public-url /first-team-project-icecream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adelahermina/First-team-project-Icecream.git"
+    "url": "git+https://github.com/adelahermina/first-team-project-icecream.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Adela Hermina <lupasadela@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adelahermina/First-team-project-Icecream/issues"
+    "url": "https://github.com/adelahermina/first-team-project-icecream/issues"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
