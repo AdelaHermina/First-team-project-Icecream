@@ -1,0 +1,2 @@
+var modal1=document.getElementById("cream-modal"),modal2=document.getElementById("coffee-modal"),modal3=document.getElementById("milk-modal"),btn1=document.getElementById("creambtn"),btn2=document.getElementById("coffeebtn"),btn3=document.getElementById("milkbtn");btn1.onclick=function(){modal1.style.display="block"},btn2.onclick=function(){modal2.style.display="block"},btn3.onclick=function(){modal3.style.display="block"};
+//# sourceMappingURL=index.2336af6e.js.map
